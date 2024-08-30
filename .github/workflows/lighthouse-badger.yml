@@ -13,6 +13,10 @@ name: "Lighthouse Badger"
 ########################################################################
 
 # INPUTS as Secrets (env) for not manually triggered workflows
+
+Default:${{ github.token }}
+token: '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'
+
 env:
   URLS: https://alshedivat.github.io/al-folio/
   # If any of the following env is blank, a default value is used instead
