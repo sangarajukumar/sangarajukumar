@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: "/assets/img/Vinoth_Kumar_Final_2.jpg"
+  image: "/assets/img/Vinoth-Kumar-New.png"
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>755 your office number</p>
