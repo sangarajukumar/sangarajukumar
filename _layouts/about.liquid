@@ -7,6 +7,7 @@ layout: default
       {% if site.title == 'blank' %}
         <span class="font-weight-lighter">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
+        <img src="{{ '/assets/img/horse.png' | relative_url }}" alt="Knight Icon" style="width: 28px; height: 28px">
       {% else %}
         {{ site.title }}
       {% endif %}
