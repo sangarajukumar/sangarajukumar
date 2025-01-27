@@ -11,12 +11,14 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if site.subtitle %}
+      <h6 class="post-subtitle">🧬{{ site.subtitle }}🧬</h6>
+    {% endif %}
   </header>
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}" style="margin-top: 20px;">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: site.baseurl %}
           {% if page.profile.image_circular %}
@@ -42,12 +44,14 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
+      <br>
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Latest News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
-
+    
+    {% comment %}
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
       <h2>
@@ -55,11 +59,12 @@ layout: default
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+    {% endcomment %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

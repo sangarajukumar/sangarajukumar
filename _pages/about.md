@@ -16,10 +16,22 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
----
+---  
+<br>
+I am currently a second-year Ph.D. student in the [Department of Integrative Biotechnology](https://skb.skku.edu/eng_gene/index.do){:target="_blank"} at the [College of Biotechnology and Bioengineering](https://biotech.skku.edu/eng_biotech/index.do){:target="_blank"}, [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/){:target="_blank"}, Republic of Korea. I am working under the guidance of Professor [Balachandran Manavalan](https://scholar.google.com/citations?user=0vkenbwAAAAJ&hl=en){:target="_blank"} in the [Computational Biology and Bioinformatics Laboratory (CBBL)](https://balalab-skku.org/){:target="_blank"}. Before joining SKKU, I obtained an M.S. in Electronics Engineering from [Jeonbuk National University (JBNU)](https://www.jbnu.ac.kr/web/index.do){:target="_blank"}, Jeonju, and a B.E. in Electronics and Communication Engineering from [Anna University](https://www.annauniv.edu/){:target="_blank"}, India.
 
-I am currently a first year PhD Student at the Department of Integrative Biotechnology, College of Biotechnology and Bioengineering, Sungkyunkwan University (SKKU), Republic of Korea. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<b>Research Interests:</b> Bioinformatics, Machine Learning, Genomics, Peptide-therapeutics, and Database development.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<b>Address:</b> Room 62105, Biotechnology and Bioengineering Building 2, Seobu-ro, Jangan-gu, Suwon-si, Gyeonggi-do, 16419, Republic of Korea.
+
+<br>
+
+<!-- Research Interest Section -->
+<h2>Research Interest</h2>
+<div class="research-interest">
+  <img src="{{ '/assets/img/CBBL-Research.png' | relative_url }}" 
+       alt="Research Interest" 
+       class="research-img" 
+       width="900">  <!-- Adjust this value (e.g., 400, 300) -->
+</div>
