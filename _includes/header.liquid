@@ -5,6 +5,7 @@
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
+            {%- comment -%}
             {% if site.first_name %}
               <span class="font-weight-lighter">
                 {{- site.first_name -}}
@@ -13,6 +14,7 @@
             {% if site.middle_name %}
               {{- site.middle_name -}}
             {% endif %}
+            {%- endcomment -%}
             {% if site.last_name %}
               {{- site.last_name -}}
             {% endif %}
