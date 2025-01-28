@@ -2,8 +2,6 @@
 layout: page
 title: Contact
 nav: true
-nav_order: 6
+nav_order: 7
 permalink: /contact/
 ---
-
-{% include news.liquid %}
