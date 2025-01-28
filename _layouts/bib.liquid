@@ -247,6 +247,11 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {%- if entry.zenodo %}
+      <a href="https://doi.org/10.5281/zenodo.{{ entry.zenodo }}">
+        <img src="https://zenodo.org/badge/doi/10.5281/zenodo.{{ entry.zenodo }}.svg" alt="DOI">
+      </a>
+      {%- endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
