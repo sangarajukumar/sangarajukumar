@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: Jun-20-2024
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+The manuscript titled **"mACPpred 2.0: Stacked deep learning for anticancer peptide prediction with integrated spatial and probabilistic feature representations"** has been accepted in the **Journal of Molecular Biology**. (IF: 4.7)
+
+
