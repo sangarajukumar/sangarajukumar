@@ -32,6 +32,6 @@ I am currently a second-year Ph.D. student in the [Department of Integrative Bio
 <div class="research-interest">
   <img src="{{ '/assets/img/CBBL-Research.png' | relative_url }}" 
        alt="Research Interest" 
-       class="research-img" 
-       width="900">  <!-- Adjust this value (e.g., 400, 300) -->
+       class="img-fluid" 
+       style="max-width: 900px; width: 100%; height: auto;"> 
 </div>
