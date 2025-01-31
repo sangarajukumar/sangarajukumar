@@ -17,23 +17,20 @@ permalink: /tools/protein-based/
 
 
 <style>
-    /* Ensure the main content is aligned to the left */
     .programs .container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
-    /* Adjust heading to align left */
     h1 {
         text-align: left;
         margin-bottom: 20px;
     }
 
-    /* Box styling */
     .custom-box {
-        width: 320px; /* Increase size */
-        height: 200px; /* Increase height */
+        width: 320px;
+        height: 200px;
         padding: 20px;
         border: 1px solid #ddd;
         border-radius: 10px;
@@ -41,14 +38,13 @@ permalink: /tools/protein-based/
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: center; /* Center vertically */
-        align-items: center; /* Center horizontally */
+        justify-content: center;
+        align-items: center;
     }
 
-    /* Row container to hold boxes and align them left */
     .custom-row {
         display: flex;
-        gap: 40px; /* Space between boxes */
+        gap: 40px;
         margin-left: -20px;
     }
 </style>
