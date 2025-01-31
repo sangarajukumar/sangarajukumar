@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 I am currently a second-year Ph.D. student in the [Department of Integrative Biotechnology](https://skb.skku.edu/eng_gene/index.do){:target="_blank"} at the [College of Biotechnology and Bioengineering](https://biotech.skku.edu/eng_biotech/index.do){:target="_blank"}, [Sungkyunkwan University (SKKU)](https://www.skku.edu/eng/){:target="_blank"}, Republic of Korea. I am working under the guidance of Professor [Balachandran Manavalan](https://scholar.google.com/citations?user=0vkenbwAAAAJ&hl=en){:target="_blank"} in the [Computational Biology and Bioinformatics Laboratory (CBBL)](https://balalab-skku.org/){:target="_blank"}. Before joining SKKU, I obtained an M.S. in Electronics Engineering from [Jeonbuk National University (JBNU)](https://www.jbnu.ac.kr/web/index.do){:target="_blank"}, Jeonju, and a B.E. in Electronics and Communication Engineering from [Anna University](https://www.annauniv.edu/){:target="_blank"}, India.
 
 
-<b>Research Interests:</b> Bioinformatics, Machine Learning, Natural Language and Processing, Peptide-therapeutics, and Database development.
+<b>Research Interests:</b> Bioinformatics, Machine Learning, Natural Language Processing, Peptide-therapeutics, and Database development.
 
 <b>Address:</b> Room 62105, Biotechnology and Bioengineering Building 2, Seobu-ro, Jangan-gu, Suwon-si, Gyeonggi-do, 16419, Republic of Korea.
 
