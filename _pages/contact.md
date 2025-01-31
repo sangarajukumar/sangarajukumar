@@ -1,10 +1,10 @@
 ---
 layout: page
+title: Contact
 nav: true
 nav_order: 7
 permalink: /contact/
 ---
-<h1 style="text-align: center;">Contact</h1>
 <form action="https://formspree.io/f/movjwjbe" method="POST">
 
   <label for="name"><b>Name</b></label>
